@@ -4,7 +4,7 @@ body, html {
 }
 
 .bgimg {
-    background-image: url('lamp.jpg');
+    background-image: url('paper.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -12,12 +12,6 @@ body, html {
     color: white;
     font-family: "Calibri", Calibri, monospace;
     font-size: 25px;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
 }
 
 .bottomleft {
@@ -32,6 +26,46 @@ body, html {
     right: -5%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.header {
+    overflow: hidden;
+    background:transparent;
+    background-image:none;
+    border-color:transparent;
+    box-shadow:none;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.topnav li{
+    float: right;
+    padding: 8px;
+}
+
+.topnav li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+color: black;  
+left:0;
+bottom: 10px;
+border-bottom: 4px solid #000;  
 }
 
 hr {
