@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<script type="text/javascript" src="main.js"></script>
 </head>
 
 <html>
@@ -23,17 +24,29 @@
 		    		<li><a href="https://www.linkedin.com/in/tom-r3/" class="fa fa-linkedin fa-5x" aria-hidden="true"></a></li>
 		    		<li><a href="mailto:tom_r3@hotmail.com" class="fa fa-envelope-o fa-5x" aria-hidden="true"></a></li>
 		    		<li><a href="resume.pdf" class="fa fa-file-text-o fa-5x" aria-hidden="true"></a></li>
-		    		<li><a href="http://tomrobertson.me" class="fa fa-home fa-5x" aria-hidden="true"></a></li>
+		    		<li><a href="index.html" class="fa fa-home fa-5x" aria-hidden="true"></a></li>
 				</ul>
 			</div>
 
 	        <div class="largename">
 	         	<h1>Tom Robertson</h1>
-	         	<ul class="midnav">
-		    		<li><a href="mailto:tom_r3@hotmail.com">Contact</a></li>
-		    		<li><a href="resume.pdf">Resume</a></li>
-				</ul>
-	        </div>
+	         </div>
+
+         	<div class="middle">
+	         	<div id="main">
+		         	<ul class="midnav">
+		         		<li><button onclick="showContact()">Contact</button></li>
+			    		<li><a href="resume.pdf">Resume</a></li>
+					</ul>
+				</div>
+				<div id="contact">
+					<ul class="midcontact">
+		         		<li><button onclick="hideContact()"><i class="fa fa-arrow-left fa-5x" aria-hidden="true"></i></button></li>
+		         		<li><h3><a href="tel:519-242-4711" class="fa fa-phone fa-5x" aria-hidden="true"></a> 519-242-4711</h3></li>
+			    		<li><h3><a href="mailto:tom_r3@hotmail.com" class="fa fa-envelope-o fa-5x" aria-hidden="true"></a> tom_r3@hotmail.com</h3></li>
+					</ul>
+				</div>
+			</div>
         </div>
 
     </body>
