@@ -5,22 +5,23 @@ body, html {
 }
 
 .bgimg {
-    background-image: url('paper.jpg');
+    background-image: url('desk.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
     color: white;
-    font-family: "Calibri", Calibri, monospace;
+    font-family: "Calibri", Calibri, monospace, bold;
     font-size: 25px;
 }
 
 .largename {
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 6%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 40px;
 }
 
@@ -36,9 +37,9 @@ body, html {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: right;
+    float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,17 +52,17 @@ body, html {
 }
 
 .topnav li a {
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .topnav a:hover {
-    color: black;  
+    color: white;  
     left:0;
     bottom: 10px;
-    border-bottom: 4px solid #000;  
+    border-bottom: 4px solid white;  
 }
 
 .midnav {
@@ -69,10 +70,10 @@ body, html {
     margin: 0;
     padding: 0;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 27px;
 }
 
 .midnav li{
@@ -81,17 +82,29 @@ body, html {
 }
 
 .midnav li a {
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
-    border: 3px solid black;
+    padding: 12px;
+    border: 3px solid white;
 }
 
 .midnav a:hover {
-    color: white;  
-    background-color: black;
+    color: black;  
+    background-color: white;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
 
 hr {
     margin: auto;
