@@ -13,6 +13,11 @@ body {
 
     .middle-buttons button {
         font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .contact-text {
+        display: none
     }
 }
 
@@ -91,4 +96,29 @@ body {
 .middle-buttons button:hover, a:hover {
     color: black;  
     background-color: white;
+}
+
+#contact {
+    display: none;
+}
+
+.contact-info a {
+    color: white;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.contact-info button  {
+    border: none;
+    max-width: 50px;
+}
+
+.contact-info a:hover, .contact-info button:hover {
+    color: white;
+    border: none;
+    background: none;
+    padding-bottom: 6px;
+    border-bottom: 4px solid white; 
+    text-decoration: none;
 }

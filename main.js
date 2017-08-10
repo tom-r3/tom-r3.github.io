@@ -6,7 +6,12 @@ function showContact() {
 }
 
 function hideContact() {
-	var x = document.getElementById('main');
+	var main = document.getElementById('main');
+	var contact = document.getElementById('contact');
 	main.style.display = 'block';
 	contact.style.display = 'none';
+}
+
+function showResume() {
+	window.location.href = 'resume.pdf';
 }
