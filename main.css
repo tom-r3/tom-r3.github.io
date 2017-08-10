@@ -6,13 +6,22 @@ body {
 	min-height: 100% 
 }
 
+@media all and (max-width: 500px) {
+    .name p {
+        font-size: 45px;
+    }
+
+    .middle-buttons button {
+        font-size: 18px;
+    }
+}
+
 .row {
 	display: flex;
 }
 
 .col {
-  flex: 1; /* additionally, equal width */
-  
+  flex: 1;
   padding: 1em;
 }
 
@@ -44,6 +53,7 @@ body {
 .navbar-default .navbar-toggle {
     color: white;
     border: none;
+    width: 60px;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-toggle:focus {
