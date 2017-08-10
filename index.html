@@ -1,53 +1,65 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-	<script type="text/javascript" src="main.js"></script>
+	<title>Tom Robertson</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
+<body>
 
-<html>
-    <head>
-        <title>Tom Robertson</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
+<div class="bg">
 
-    <body>
-
-        <div class="bgimg">
-        	<div class=header>
-		    	<ul class="topnav">
-		    		<li><a href="https://www.instagram.com/tom_r3/" class="fa fa-instagram fa-5x" aria-hidden="true"></a></li>
-		    		<li><a href="https://github.com/tom-r3" class="fa fa-github fa-5x" aria-hidden="true"></a></li>
-		    		<li><a href="https://www.linkedin.com/in/tom-r3/" class="fa fa-linkedin fa-5x" aria-hidden="true"></a></li>
-		    		<li><a href="mailto:tom_r3@hotmail.com" class="fa fa-envelope-o fa-5x" aria-hidden="true"></a></li>
-		    		<li><a href="resume.pdf" class="fa fa-file-text-o fa-5x" aria-hidden="true"></a></li>
-		    		<li><a href="index.html" class="fa fa-home fa-5x" aria-hidden="true"></a></li>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="collapse" id="myNavbar">
+		    	<ul class="nav navbar-nav">
+			        <li><a href="resume.pdf"><span class="fa fa-file-text-o fa-2x"></span></a></span></li>
+			        <li><a href="mailto:tom_r3@hotmail.com"><span class="fa fa-envelope-o fa-2x"></span></a></span></li>
+			        <li><a href="https://www.linkedin.com/in/tom-r3/"><span class="fa fa-linkedin fa-2x"></span></a></span></li>
+			        <li><a href="https://github.com/tom-r3"><span class="fa fa-github fa-2x"></span></a></span></li>
+			        <li><a href="https://www.instagram.com/tom_r3/"><span class="fa fa-instagram fa-2x"></span></a></span></li>
 				</ul>
 			</div>
 
-	        <div class="largename">
-	         	<h1>Tom Robertson</h1>
-	         </div>
-
-         	<div class="middle">
-	         	<div id="main">
-		         	<ul class="midnav">
-		         		<li><button onclick="showContact()">Contact</button></li>
-			    		<li><a href="resume.pdf">Resume</a></li>
-					</ul>
-				</div>
-				<div id="contact">
-					<ul class="midcontact">
-		         		<li><button onclick="hideContact()"><i class="fa fa-arrow-left fa-5x" aria-hidden="true"></i></button></li>
-		         		<li><h3><a href="tel:519-242-4711" class="fa fa-phone fa-5x" aria-hidden="true"></a> 519-242-4711</h3></li>
-			    		<li><h3><a href="mailto:tom_r3@hotmail.com" class="fa fa-envelope-o fa-5x" aria-hidden="true"></a> tom_r3@hotmail.com</h3></li>
-					</ul>
-				</div>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				    <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+				</button>
 			</div>
-        </div>
 
-    </body>
+			<div class="collapse navbar-collapse" id="myNavbar">
+		    	<ul class="nav navbar-nav">
+		    		<li><a class="nav navbar-nav" href="index.html"><span class="fa fa-home fa-2x"></span></a></span></li>
+			        <li><a href="resume.pdf"><span class="fa fa-file-text-o fa-2x"></span></a></span></li>
+			        <li><a href="mailto:tom_r3@hotmail.com"><span class="fa fa-envelope-o fa-2x"></span></a></span></li>
+			        <li><a href="https://www.linkedin.com/in/tom-r3/"><span class="fa fa-linkedin fa-2x"></span></a></span></li>
+			        <li><a href="https://github.com/tom-r3"><span class="fa fa-github fa-2x"></span></a></span></li>
+			        <li><a href="https://www.instagram.com/tom_r3/"><span class="fa fa-instagram fa-2x"></span></a></span></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid centerpiece">
+		<div class="row text-center name">
+			<div class="col-xs-12">
+				<p>Tom Robertson</p> 
+			</div>
+		</div>
+		<div class="row text-center middle-buttons">
+			<div class="col-xs-8 col-xs-offset-2">
+				<button onclick="showContact()">Contact</button>
+	    		<button onclick="showResume()">Resume</button>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
 </html>
