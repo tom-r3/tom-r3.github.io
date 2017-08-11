@@ -24,6 +24,11 @@ body {
     .contact-text {
         display: none
     }
+
+    .menu-info {
+        display: inline-block !important;
+    }
+
 }
 
 .row {
@@ -129,4 +134,8 @@ body {
     padding-bottom: 6px;
     border-bottom: 4px solid white; 
     text-decoration: none;
+}
+
+.menu-info {
+    display: none;
 }
