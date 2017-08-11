@@ -30,13 +30,27 @@ body {
     }
 
     .descriptions p {
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     .descriptions h1 {
         font-size: 25px !important;
     }
 
+}
+
+@media all and (max-width: 768px){
+    #arrow {
+        display: inline !important;
+    }
+
+    .descriptions {
+        top: 20% !important;
+    }
+
+    .back-arrow {
+        top: 8% !important;
+    }
 }
 
 @media all and (max-height: 500px) and (orientation: landscape){
@@ -190,4 +204,40 @@ body {
 
 .descriptions p {
     font-size: 16px;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.back-arrow button {
+    border: none;
+}
+
+#arrow {
+    display: none;
+}
+
+.company a {
+    text-decoration: none;
+    color: white;
+}
+
+.company:hover {
+    border: 5px solid white;
+}
+
+.coming-soon {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }

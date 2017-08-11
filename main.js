@@ -20,3 +20,10 @@ function showBusiness() {
 	window.location.href = 'business.html';
 }
 
+function showProjects() {
+	window.location.href = 'projects.html';
+}
+
+function goHome() {
+	window.location.href = 'index.html';
+}
