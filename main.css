@@ -11,8 +11,12 @@ body {
         font-size: 45px;
     }
 
+    .centerpiece {
+        top: 20% !important;
+    }
+
     .middle-buttons button {
-        margin-top: 20px;
+        margin-top: 15px;
         margin-bottom: 0px !important;
         font-size: 18px;
     }
