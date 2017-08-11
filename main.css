@@ -12,6 +12,8 @@ body {
     }
 
     .middle-buttons button {
+        margin-top: 20px;
+        margin-bottom: 0px !important;
         font-size: 18px;
     }
 
