@@ -31,7 +31,7 @@ body {
 
 }
 
-@media all and (max-width: 500px) and (orientation: landscape) {
+@media (orientation: landscape) {
     .bg {
         background: none;
         background-color: black;
