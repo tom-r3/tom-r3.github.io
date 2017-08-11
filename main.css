@@ -3,6 +3,7 @@ html {
 }
 
 body { 
+	min-height: 100% 
 }
 
 @media all and (max-width: 500px) {
@@ -30,6 +31,13 @@ body {
 
 }
 
+@media all and (max-width: 500px) and (orientation: landscape) {
+    .bg {
+        background: none;
+        background-color: black;
+    }
+ }
+
 .row {
 	display: flex;
 }
@@ -43,10 +51,6 @@ body {
     background: url('desk.jpg') no-repeat center center;
     background-size: cover;
  	min-height:100vh;
-}
-
-.bg-under {
-     background-color: black;
 }
 
 .navbar-default {
