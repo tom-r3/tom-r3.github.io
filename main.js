@@ -15,3 +15,8 @@ function hideContact() {
 function showResume() {
 	window.location.href = 'resume.pdf';
 }
+
+function showBusiness() {
+	window.location.href = 'business.html';
+}
+
