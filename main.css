@@ -43,6 +43,7 @@ body {
 .bg { 
     background: url('desk.jpg') no-repeat center center;
     background-size: cover;
+    background-color: black;
  	min-height:100vh;
 }
 
