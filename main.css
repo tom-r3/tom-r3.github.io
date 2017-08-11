@@ -13,7 +13,6 @@ body {
 
     .middle-buttons button {
         font-size: 18px;
-        margin-bottom: 15px;
     }
 
     .contact-text {
@@ -77,7 +76,7 @@ body {
 .name {
 	color: white;
     font-family: "Calibri", Calibri, monospace, bold;
-    font-size: 65px;
+    font-size: 75px;
 }
 
 .middle-buttons {
@@ -88,9 +87,12 @@ body {
 	color: white;
 	background: none;
 	text-decoration: none;
-    padding: 12px;
+    padding: 10px;
     width: 130px;
     border: 3px solid white;
+    margin-bottom: 20px !important;
+    margin-right: 6px !important;
+    margin-left: 6px !important;
 }
 
 .middle-buttons button:hover, a:hover {
