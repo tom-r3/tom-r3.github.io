@@ -15,7 +15,7 @@
 
 <div class="bg">
 
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-static-top">
 		<div class="container-fluid">
 			<div class="collapse" id="myNavbar">
 		    	<ul class="nav navbar-nav">
@@ -50,25 +50,190 @@
 
 		<div class="row text-center projects">
 			<div class="col-xs-2 col-xs-offset-3">
-				<a href=#><img src="leadme-mobile.png" class="img-responsive center-block project-icon" alt="Leadme Mobile" height="100" width="100"></a>
+				<a href="#leadme-mobile"><img src="img/icons/leadme-mobile.png" class="img-responsive center-block project-icon" alt="Leadme Mobile" height="100" width="100"></a>
 			</div>
 			<div class="col-xs-2">
-				<a href=#><img src="leadme-hardware.png" class="img-responsive center-block project-icon" alt="Leadme Hardware" height="100" width="100"></a>
+				<a href=#><img src="img/icons/leadme-hardware.png" class="img-responsive center-block project-icon" alt="Leadme Hardware" height="100" width="100"></a>
 			</div>
 			<div class="col-xs-2">
-				<a href=#><img src="cents-icon.png" class="img-responsive center-block project-icon" alt="Cents App" height="100" width="100"></a>
+				<a href=#cents><img src="img/icons/cents-icon.png" class="img-responsive center-block project-icon" alt="Cents App" height="100" width="100"></a>
 			</div>
 		</div>
 
 		<div class="row text-center projects-2">
 			<div class="col-xs-2 col-xs-offset-3">
-				<a href=#><img src="activity-tracker-icon.png" class="img-responsive center-block project-icon" alt="Activity Tracker" height="100" width="100"></a>
+				<a href=#><img src="img/icons/activity-tracker-icon.png" class="img-responsive center-block project-icon" alt="Activity Tracker" height="100" width="100"></a>
 			</div>
 			<div class="col-xs-2">
-				<a href=#><img src="recreation-icon.png" class="img-responsive center-block project-icon" alt="Recreation CRM" height="100" width="100"></a>
+				<a href=#><img src="img/icons/recreation-icon.png" class="img-responsive center-block project-icon" alt="Recreation CRM" height="100" width="100"></a>
 			</div>
 			<div class="col-xs-2">
-				<a href=#><img src="file-transfer-icon.png" class="img-responsive center-block project-icon" alt="File Transfer Apps" height="100" width="100"></a>
+				<a href=#><img src="img/icons/file-transfer-icon.png" class="img-responsive center-block project-icon" alt="File Transfer Apps" height="100" width="100"></a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="bg-2">
+	<div class="container-fluid">
+
+		<section id="leadme-mobile">
+			<div class="row project-info">
+				<div class="col-xs-10 col-xs-offset-1">
+					<h2>Leadme Mobile App</h2>
+	                            <p>
+	                                The Leadme mobile application provides offline functionality during trade shows and conditions with no internet connection. In the app, a user can
+	                                view and manage incoming and previously captured leads. The app is built for <a href="https://www.android.com/">Android</a>,
+	                                using <a href="https://cordova.apache.org/">Apache Cordova</a>.
+	                            </p>
+	                            <p>
+	                                The app uses Cordova's <a href="https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-contacts/">Contacts Plugin</a> to interact with an
+	                                Android phone's local contact list. A feature is provided to allow users to write all of their Leadme leads into their phone's contacts list.
+	                                Th opposite function is also provided. A user can import leads from their contacts list as well. If an imported contact has a Leadme account, then the
+	                                contact will be added to the user's leads.
+	                            </p>
+	                            <p>
+	                                The app uses the <a href="https://www.npmjs.com/package/cordova-plugin-pebblekit">Cordova Pebblekit Plugin</a> to communicate with Pebble's mobile app and a pebble watch.
+	                                This interfacing is set up according to the process outlined in <a href="https://developer.pebble.com/blog/2016/07/01/creating-native-companion-apps-with-js-and-cordova/">this tutorial by Pebble</a>.
+	                                When online, any handshakes that take place are immediately detected, sent to Leadme's server and evaluated. Any resulting connections are returned to the app immediately, and new lead information is updated.
+	                                However, when a mobile user is offline, all potential handshake data is stored locally on the phone. This data is automatically processed when an internet connection is detected.
+	                                Internet connection detection is based on Cordova's <a href="https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-network-information/">Network Information Plugin</a>.
+	                            </p>
+	                            <p>
+	                                The graphical elements of the app are based on the free <a href="https://www.bootstrapzero.com/bootstrap-template/akivaron-miminium-theme">Minimum Admin</a> template provided by
+	                                <a href="https://www.bootstrapzero.com/">Bootstrap Zero</a>. In-app notifications are implemented using <a href="https://plugins.jquery.com/jgrowl/">jGrowl</a>.
+	                            </p>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="col-xs-10 col-xs-offset-1">
+	                            <div class="row">
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m1.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m1.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Login</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m2.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m2.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Lead Counter</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m3.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m3.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Lead Sync</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m4.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m4.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Contact Import</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                            </div>
+	                            <div class="row">
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m5.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m5.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Contact Export</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m6.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m6.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Account</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Leadme/m7.png">
+	                                        <img class="img-responsive" alt="" src="img/Leadme/m7.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Leads</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+                </section>
+
+                <section id="cents">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-xs-10 col-xs-offset-1">
+	                            <h2>Cents</h2>
+	                            <p>
+	                                Cents is a <a href="https://laravel.com/">Laravel</a>-based web application that provides online transactions through an integration with <a href="https://stripe.com/ca">Stripe</a> that has been developed by the
+	                                <a href="http://www.sigmadev.ca">Sigma</a> team. The application adds a streamlined usability on top of Stripe’s
+	                                transaction technology and adds functionality that supports group payment scenarios. We have implemented campaign creation
+	                                and secure campaign sharing through campaign invite links. Every payment is tracked by the system as well as Stripe’s, and
+	                                payment information can be accessed quickly by campaign owners and participants in simple roll-ups.
+	                                Campaign information can be quickly communicated through campaign-specific photos and descriptions specified by campaign creators.
+	                                Cents also supports transactions between pairs of users and options for capping contributors, specifying per-person charges, or allowing users to pay what they want.
+	                                We have setup our own secure server through <a href="http://www.vultr.com">Vultr’s</a> high performance SSD cloud service.
+	                                A fully scalable virtual private server hosts the application which is based on tried-and-true technologies including scalable,
+	                                encrypted data storage in <a href="https://www.postgresql.org/">PostgreSQL</a>, interactive web design done in <a href="https://jquery.com/">JQuery</a> and secure network management using SSL.
+	                            </p>
+	                            <p>
+	                                Below are a number of screenshots of the app being run in <a href="https://blisk.io/">Blisk</a>, a browser for web developers, emulating a Google Nexus 6.
+	                            </p>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="col-xs-10 col-xs-offset-1">
+	                            <div class="row">
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Cents/cents-login.png">
+	                                        <img class="img-responsive" alt="" src="img/Cents/cents-login.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Login</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Cents/cents-dash.png">
+	                                        <img class="img-responsive" alt="" src="img/Cents/cents-dash.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Dashboard</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Cents/cents-campaign-2.png">
+	                                        <img class="img-responsive" alt="" src="img/Cents/cents-campaign-2.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Campaign</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                                <div class='col-sm-3 col-xs-6 col-md-3 col-lg-3'>
+	                                    <a class="thumbnail fancybox" rel="ligthbox" href="http://mackedweise.github.io/img/Cents/cents-edit.png">
+	                                        <img class="img-responsive" alt="" src="img/Cents/cents-edit.png" />
+	                                        <div class='text-right'>
+	                                            <small class='text-muted'>Edit Campaign</small>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+            	</section>
 			</div>
 		</div>
 	</div>
