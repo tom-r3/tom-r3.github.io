@@ -236,7 +236,7 @@ body {
     border: 5px solid white;
 }
 
-.coming-soon {
+.projects {
     color: white;
     position: absolute;
     top: 30%;
@@ -244,4 +244,18 @@ body {
     bottom: 0;
     right: 0;
     margin: auto;
+}
+
+.projects-2 {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.project-icon:hover {
+    border: 3px solid white;
 }
