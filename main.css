@@ -263,3 +263,11 @@ body {
 .bg-2 {
     background-color: #F8F9F9;
 }
+
+.resume {
+    border: 2px solid black;
+}
+
+.resume-divider {
+    padding-bottom: 10px;
+}

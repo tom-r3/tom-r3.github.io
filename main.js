@@ -13,6 +13,14 @@ function hideContact() {
 }
 
 function showResume() {
+	window.location.href = 'resume.html';
+}
+
+function viewResume() {
+	window.location.href = 'resume.html#resume';
+}
+
+function downloadResume() {
 	window.location.href = 'resume.pdf';
 }
 

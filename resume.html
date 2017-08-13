@@ -17,11 +17,17 @@
 
 	<nav class="navbar navbar-default navbar-static-top">
 		<div class="container-fluid">
-			<div class="collapse navbar-collapse">
+			<div class="collapse" id="myNavbar">
+		    	<ul class="nav navbar-nav">
+		    		<li><a class="nav navbar-nav" href="index.html"><span class="fa fa-home fa-2x"></span></a></span></li>
+				</ul>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
 		    	<ul class="nav navbar-nav">
 		    		<li><a class="nav navbar-nav" href="index.html"><span class="fa fa-home fa-2x"></span></a></span></li>
 		    		<li><a href="mailto:tom_r3@hotmail.com"><span class="fa fa-envelope-o fa-2x"></span></a></span></li>
-			        <li><a href="resume.html"><span class="fa fa-file-text-o fa-2x"></span></a></span></li>
+			        <li><a href="resume.pdf"><span class="fa fa-file-text-o fa-2x"></span></a></span></li>
 			        <li><a href="projects.html"><span class="fa fa-file-code-o fa-2x"></span></a></span></li>
 			        <li><a href="business.html"><span class="fa fa-usd fa-2x"></span></a></span></li>
 			        <li><a href="https://www.linkedin.com/in/tom-r3/"><span class="fa fa-linkedin fa-2x"></span></a></span></li>
@@ -34,37 +40,44 @@
 
 	<div class="container-fluid centerpiece">
 
+		<div id="arrow">
+			<div class="row text-center back-arrow">
+				<div class="col-xs-12">
+					<button onclick="goHome()"><i class="fa fa-arrow-left fa-2x"></i></button>
+				</div>
+			</div>
+		</div>
+
 		<div class="row text-center name">
 			<div class="col-xs-12">
 				<p>Tom Robertson</p> 
+				<h1>Resume</h1>
 			</div>
 		</div>
 
-		<div id="main">
-			<div class="row text-center middle-buttons">
-				<div class="col-xs-8 col-xs-offset-2">
-					<button onclick="showContact()">Contact</button>
-		    		<button onclick="showResume()">Resume</button>
-		    		<button onclick="showProjects()">Projects</button>
-		    		<button onclick="showBusiness()">Business</button>
-		    	</div>
-			</div>
+		<div class="row text-center middle-buttons">
+			<div class="col-xs-8 col-xs-offset-2">
+				<button onclick="viewResume()">View</button>
+	    		<button onclick="downloadResume()">Download</button>
+	    	</div>
 		</div>
 
-        <div id="contact"> 
-          	<div class="row text-center contact-info">
-          		<div class="col-xs-12">
-             		<button onclick="hideContact()"><i class="fa fa-arrow-left fa-2x"></i></button>
-                	<a href="tel:519-242-4711" class="fa fa-phone fa-2x"> <span class="contact-text"> 519-242-4711</span></a>
-              		<a href="mailto:tom_r3@hotmail.com" class="fa fa-envelope-o fa-2x"> <span class="contact-text"> tom_r3@hotmail.com</span></a>
-              		<span class="menu-info"> <a href="https://www.linkedin.com/in/tom-r3/" class="fa fa fa-linkedin fa-2x"></a></span>
-              		<span class="menu-info"><a href="https://www.instagram.com/tom_r3/" class="fa fa-instagram fa-2x"></a></span>
-              	</div>
-          	</div>
-        </div> 
+	</div>
+</div>
 
-    </div>
-
+<div class="bg-2">
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-xs-10 col-xs-offset-1">
+				<section id="resume">
+					<img src="img/resume-1.png" class="img-responsive center-block resume" alt="Resume Page One">
+					<h1></h1>
+					<img src="img/resume-2.png" class="img-responsive center-block resume" alt="Resume Page Two">
+					<h1></h1>
+				</section>
+			</div>
+		</div>
+	</div>
 </div>
 
 </body>
