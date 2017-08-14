@@ -63,6 +63,14 @@ body {
     .business-text p {
         display: none;
     }
+
+    .project-name {
+        display: none;
+    }
+
+    .center-projects div{
+     margin:0 -4% 0 4%;
+  }
 }
 
 @media all and (max-height: 500px) and (orientation: landscape){
