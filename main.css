@@ -98,12 +98,13 @@ body {
 
 .navbar-default {
 	background: none;
-	border: none;
+    border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
 	padding-top: 19px;
     color: white;
+    border-bottom: 4px solid transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -199,7 +200,7 @@ body {
     font-family: "Calibri", Calibri, monospace, bold;
     font-size: 25px;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -227,6 +228,10 @@ body {
     display: none;
 }
 
+.company {
+    border: 5px solid transparent;
+}
+
 .company a {
     text-decoration: none;
     color: white;
@@ -239,7 +244,7 @@ body {
 .projects {
     color: white;
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -253,7 +258,7 @@ body {
 .projects-2 {
     color: white;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -262,6 +267,7 @@ body {
 
 .project-block {
     padding-top: 10px;
+    border: 3px solid transparent;
 }
 
 .project-block:hover {
@@ -270,10 +276,18 @@ body {
 
 .project-name {
     color: white;
+    font-family: 'Cabin', sans-serif;
 }
 
 .projects-title {
     color: #C3BfB9;
+}
+
+.pages-header h1 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    line-height: 100px;
 }
 
 .bg-2 {
