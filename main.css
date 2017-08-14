@@ -298,9 +298,26 @@ body {
     border: 2px solid black;
 }
 
-.github-icon {
+.project-info h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+.project-info {
+    padding-bottom: 20px;
+}
+
+.project-images {
+    padding-bottom: 40px;
+}
+
+.project-link {
     color: black;
 }
 
-.github-icon:hover {
+.project-link:hover {
     color: #434343;
+}
+
+.r-img {
+    width: 300px;
+    }
