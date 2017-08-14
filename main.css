@@ -306,16 +306,22 @@ body {
     padding-bottom: 20px;
 }
 
+.last-project {
+    padding-bottom: 500px;
+}
+
 .project-images {
     padding-bottom: 40px;
 }
 
 .project-link {
     color: black;
+    background-color: #F8F9F9;
 }
 
 .project-link:hover {
     color: #434343;
+    background-color: #F8F9F9;
 }
 
 .r-img {

@@ -82,13 +82,13 @@
 			</div>
 			<div class="col-xs-2">
 				<div class=project-block>
-					<a href=#><img src="img/icons/file-transfer-icon.png" class="img-responsive center-block project-icon" alt="File Transfer Apps" height="100" width="100"></a>
+					<a href=#file-transfer><img src="img/icons/file-transfer-icon.png" class="img-responsive center-block project-icon" alt="File Transfer Apps" height="100" width="100"></a>
 					<p class=project-name>File Transfer Server</p>
 				</div>
 			</div>
 			<div class="col-xs-2">
 				<div class=project-block>
-					<a href=#><img src="img/icons/activity-tracker-icon.png" class="img-responsive center-block project-icon" alt="Activity Tracker" height="100" width="100"></a>
+					<a href=#activity-tracker><img src="img/icons/activity-tracker-icon.png" class="img-responsive center-block project-icon" alt="Activity Tracker" height="100" width="100"></a>
 					<p class=project-name>Activity Tracker</p>
 				</div>
 			</div>
@@ -377,6 +377,43 @@
 	                    </div>
 	                </div>
             	</section>
+
+            	<section id="file-transfer">
+                	<div class="row project-info">
+	                    <div class="col-xs-10 col-xs-offset-1">
+	                        <h2>File Transfer Server   <a href="https://github.com/tom-r3/File-Transfer-Server"><span class="fa fa-github project-link"></span></a></h2>
+	                        <p>
+	                            A TCP server written in <a href="https://www.python.org/">Python</a> using the <a href="https://docs.python.org/2/library/socket.html">socket interface</a>, runnable in <a href="http://www.opengroup.org/subjectareas/platform/unix">Unix</a>. Clients connect and specify whether they would like to upload or download a file, as well as an alphanumeric identifier. The server opens a connection and blocks until a matching uploader/downloader is found, they initiates the file transfer. The server does not store any files.
+	                        </p>
+	                        <p>
+	                        	The server is multithreaded. The main thread loops forever, blocking on accept until a connection is present. On a new connection, it starts a new thread for that specific connection. The threads all share access to three synchronized lists which track sockets (both waiting and transferring) as well as keys and are protected by a lock. First, the lists are checked for an opposite match (P/G), and if there is one the socket is placed in the transferring list and the transfer begins. A DONE event is also cleared at the beginning of a thread being added. If the key is not in the lists, it is added to them. At the end, the thread checks if all the lists are empty and if so it sets the DONE event so that the server can end if a client calls F. 
+                        	</p>
+	                    </div>
+	                </div>
+                </section>
+
+            	<section id="activity-tracker">
+                	<div class="row project-info last-project">
+	                    <div class="col-xs-10 col-xs-offset-1">
+	                        <h2>Activity Tracker   <a href="https://github.com/tom-r3/activityTracker"><span class="fa fa-github project-link"></span></a></h2>
+	                        <p>
+	                         A new type of activity tracker, designed to be used in conjunction with a keychain/phone case type device powered by <a href="https://www.arduino.cc/">Arduino</a>. It is currently written entirely in <a href="https://www.javascript.com/">Javascript</a> with an HTML/CSS front-end. It is going to be accessible via a web app and a mobile app.
+	                        </p>
+	                        <p>
+							Users add buttons via the settings page for each activity that they do in a day, such that the categories cover the whole day's activities (eg. sleep, travel, gym, schoolwork, cooking/eating, leisure). They can also set buttons that simply "check off" a task, as opposed to an ongoing activity (useful for things one does every day and wants to track, such as "stretch" or "drink water").
+							</p>
+							<p>
+							The home screen of the app is just these buttons, and the user simply presses the button of the activity they are beginning. The previous activity is automatically ended and stored (users are able to edit these via the settings page), unless the button is a "check task" button. In place of opening the app, users will be able to simply press a button on a keychain (this will be built using arduino and likely have 6 multicoloured buttons). It is currently undecided whether this will work via bluetooth, wifi or usb memory.
+							</p>
+							<p>
+							Users can then view how they spent their days/weeks in an easy to read graph format so that they can use that information to plan their day better and be more productive. It will offer different views such as a dashboard, total time at a specific activity, past week, past month etc.
+							</p>
+							<p>
+							This is currently a work in progress.
+							</p>
+	                    </div>
+	                </div>
+                </section>
 
 			</div>
 		</div>
