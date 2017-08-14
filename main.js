@@ -24,6 +24,10 @@ function downloadResume() {
 	window.location.href = 'resume.pdf';
 }
 
+function viewCourses() {
+	window.location.href = 'resume.html#courses';
+}
+
 function showBusiness() {
 	window.location.href = 'business.html';
 }
