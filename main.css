@@ -46,6 +46,10 @@ body {
         text-align: left;
     }
 
+    .project-name {
+        display: none;
+    }
+
 }
 
 @media all and (max-width: 768px){
@@ -66,10 +70,6 @@ body {
     }
 
     .business-text p {
-        display: none;
-    }
-
-    .project-name {
         display: none;
     }
 
