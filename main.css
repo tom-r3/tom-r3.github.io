@@ -115,6 +115,7 @@ body {
     background: url('desk.jpg') no-repeat center center;
     background-size: cover;
  	min-height:100vh;
+    overflow: hidden;
 }
 
 .navbar-default {
