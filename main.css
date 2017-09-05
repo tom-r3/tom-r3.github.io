@@ -335,6 +335,11 @@ body {
     background-color: #F8F9F9;
 }
 
+.bg-2 a:hover, span:hover {
+    border: none;
+    color: #FFBD4A;
+}
+
 .resume {
     border: 2px solid black;
 }
@@ -361,7 +366,6 @@ body {
 }
 
 .project-link:hover {
-    color: #434343;
     background-color: #F8F9F9;
 }
 
