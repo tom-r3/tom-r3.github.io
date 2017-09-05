@@ -16,12 +16,12 @@ function showResume() {
 	window.location.href = 'resume.html';
 }
 
-function viewResume() {
-	window.location.href = 'resume.html#resume';
+function viewFullResume() {
+	window.location.href = 'resume.html#full_resume';
 }
 
-function downloadResume() {
-	window.location.href = 'resume.pdf';
+function viewGraphicResume() {
+	window.location.href = 'resume.html#graphic_resume';
 }
 
 function viewCourses() {
