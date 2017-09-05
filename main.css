@@ -130,7 +130,8 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	border-bottom: 4px solid white;  
+    border: none;
+	border-bottom: 4px solid #FFBD4A;  
 	color: white;
 }
 
@@ -163,6 +164,14 @@ body {
     font-size: 75px;
 }
 
+.name p {
+    display: inline;
+}
+
+.name p:hover {
+    color: #FFBD4A;
+}
+
 .middle-buttons {
     font-size: 18px;
 }
@@ -173,15 +182,15 @@ body {
 	text-decoration: none;
     padding: 16px;
     width: 130px;
-    border: 3px solid white;
+    border: 2px solid white;
     margin-bottom: 20px !important;
     margin-right: 6px !important;
     margin-left: 6px !important;
 }
 
 .middle-buttons button:hover, a:hover {
-    color: black;  
-    background-color: white;
+    color: #FFBD4A;  
+    border: 2px solid #FFBD4A;
 }
 
 #contact {
@@ -205,11 +214,10 @@ body {
 }
 
 .contact-info a:hover, .contact-info button:hover {
-    color: white;
+    color: #FFBD4A;
     border: none;
     background: none;
     padding-bottom: 6px;
-    border-bottom: 4px solid white; 
     text-decoration: none;
 }
 
@@ -251,7 +259,7 @@ body {
 }
 
 .company {
-    border: 5px solid transparent;
+    border: 3px solid transparent;
 }
 
 .company a {
@@ -259,8 +267,9 @@ body {
     color: white;
 }
 
-.company:hover {
-    border: 5px solid white;
+.company a:hover {
+    border: none !important;
+    color: #FFBD4A;
 }
 
 .projects {
@@ -287,13 +296,18 @@ body {
     margin: auto;
 }
 
-.project-block {
-    padding-top: 10px;
-    border: 3px solid transparent;
+.projects-2 a {
+    color: white;
 }
 
-.project-block:hover {
-    border: 3px solid white;
+.project-block {
+    padding-top: 10px;
+}
+
+.project-block a:hover {
+    border: none;
+    text-decoration: none;
+    color: #FFBD4A;
 }
 
 .project-name {
@@ -310,6 +324,11 @@ body {
     font-family: 'Cabin', sans-serif;
     font-size: 50px;
     line-height: 100px;
+    display: inline;
+}
+
+.pages-header h1:hover {
+    color: #FFBD4A;
 }
 
 .bg-2 {
