@@ -132,7 +132,7 @@ body {
 .navbar-default .navbar-nav > li > a:hover {
     border: none;
 	border-bottom: 4px solid #FFBD4A;  
-	color: white;
+	color: #FFBD4A;
 }
 
 .navbar-default .navbar-nav > li {
