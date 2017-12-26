@@ -1,9 +1,9 @@
-html { 
-	height: 100% 
+html {
+	height: 100%
 }
 
-body { 
-	min-height: 100% 
+body {
+	min-height: 100%
 }
 
 @media all and (max-width: 500px){
@@ -111,10 +111,10 @@ body {
   padding: 1em;
 }
 
-.bg { 
+.bg {
     background: url('desk.jpg') no-repeat center center;
     background-size: cover;
- 	min-height:100vh;
+ 	  min-height:100vh;
     overflow: hidden;
 }
 
@@ -130,8 +130,8 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    border: none;
-	border-bottom: 4px solid #FFBD4A;  
+  border: none;
+	border-bottom: 4px solid #FFBD4A;
 	color: #FFBD4A;
 }
 
@@ -160,8 +160,8 @@ body {
 
 .name {
 	color: white;
-    font-family: "Calibri", Calibri, monospace, bold;
-    font-size: 75px;
+  font-family: "Calibri", Calibri, monospace, bold;
+  font-size: 75px;
 }
 
 .name p {
@@ -189,7 +189,7 @@ body {
 }
 
 .middle-buttons button:hover, a:hover {
-    color: #FFBD4A;  
+    color: #FFBD4A;
     border: 2px solid #FFBD4A;
 }
 
@@ -340,10 +340,6 @@ body {
     color: #FFBD4A;
 }
 
-.resume {
-    border: 2px solid black;
-}
-
 .project-info h2 {
     font-family: 'Cabin', sans-serif;
 }
@@ -371,4 +367,11 @@ body {
 
 .top-arrow {
     float: right;
+}
+
+.summary {
+  margin-top: 50px;
+  color: #FFBD4A;
+  font-family: "Calibri", Calibri, monospace, bold;
+  font-size: 35px;
 }

@@ -16,12 +16,12 @@ function showResume() {
 	window.location.href = 'resume.html';
 }
 
-function viewFullResume() {
-	window.location.href = 'resume.html#full_resume';
+function viewResume() {
+	window.location.href = 'resume.html#resume';
 }
 
-function viewGraphicResume() {
-	window.location.href = 'resume.html#graphic_resume';
+function viewLinkedIn() {
+	window.location.href = 'https://www.linkedin.com/in/tom-r3/';
 }
 
 function viewCourses() {
