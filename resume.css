@@ -380,3 +380,32 @@ section:last-child {
   margin: none;
   border: none;
 }
+
+/* Skill Bars */
+* {box-sizing:border-box}
+
+.skills-container {
+    width: 100%;
+    margin-bottom: 25px;
+    border: 1px solid #FFBD4A;
+}
+
+.keySkill p {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.keySkill * {
+  color: #FFBD4A;
+}
+
+.keySkill:hover * {
+    color: #FFBD4A;
+}
+
+.python {width: 90%; background-color: #FFBD4A; opacity: 0.2;}
+.c {width: 80%; background-color: #FFBD4A; opacity: 0.2;}
+.js {width: 65%; background-color: #FFBD4A; opacity: 0.2;}
+.html {width: 60%; background-color: #FFBD4A; opacity: 0.2;}
+.verilog {width: 60%; background-color: #FFBD4A; opacity: 0.2;}
+.photoshop {width: 80%; background-color: #FFBD4A; opacity: 0.2;}
