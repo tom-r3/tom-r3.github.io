@@ -272,6 +272,10 @@ body {
     color: #FFBD4A;
 }
 
+.company p {
+  font-size: 20px;
+}
+
 .projects {
     color: white;
     position: absolute;
@@ -374,4 +378,20 @@ body {
   color: #FFBD4A;
   font-family: "Calibri", Calibri, monospace, bold;
   font-size: 35px;
+}
+
+.bg-wood-contain {
+    background: url('wood.jpg') center center;
+    background-size: contain;
+    min-height:100vh;
+    overflow: hidden;
+    background-repeat: repeat-y;
+}
+
+.bg-wood-cover {
+    background: url('wood.jpg') center center;
+    background-size: cover;
+    min-height:100vh;
+    overflow: hidden;
+    background-repeat: repeat-y;
 }

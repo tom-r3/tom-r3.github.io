@@ -13,7 +13,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 .clear {clear: both;}
 
 p {
-	font-size: 1em;
+	font-size: 1.3em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
 	color: white;
@@ -33,16 +33,16 @@ p {
 }
 
 #name h1 {
-	font-size: 2.5em;
+	font-size: 2.7em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: "Calibri", Calibri, monospace, bold;
 	margin-bottom: -6px;
 }
 
 #name h2 {
-	font-size: 2em;
+	font-size: 2.3em;
 	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: "Calibri", Calibri, monospace, bold;
 }
 
 #mainArea {
@@ -72,7 +72,7 @@ p {
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 0.9em;
+	font-size: 1.2em;
 	margin-top: 2px;
 }
 
@@ -121,21 +121,19 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
-	font-size: 1.5em;
+  font-family: "Calibri", Calibri, monospace, bold;	font-style: bold;
+	font-size: 1.8em;
 	color: #FFBD4A;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+  font-family: "Calibri", Calibri, monospace, bold;	font-size: 1.8em;
 	margin-bottom: -2px;
   color: #FFBD4A
 }
 
 .subDetails {
-	font-size: 0.8em;
+	font-size: 1.1em;
 	font-style: italic;
 	margin-bottom: 10px;
   margin-top: 4px;
@@ -147,7 +145,7 @@ section:last-child {
 	-webkit-column-count:3;
 	column-count:3;
 	margin-bottom: 20px;
-	font-size: 1em;
+	font-size: 1.3em;
 	color: white;
 }
 
@@ -191,7 +189,7 @@ section:last-child {
 
 	.sectionTitle {
 		margin-left: -2px;
-		font-size: 1.25em;
+		font-size: 1.6em;
 	}
 
 	.keySkills {
@@ -354,20 +352,13 @@ section:last-child {
 	animation-delay: 0, 2.5s;
 }
 
-.bg-resume {
-    background: url('wood.jpg') no-repeat center center;
-    background-size: cover;
-    min-height:100vh;
-    overflow: hidden;
-}
-
 .resume {
-  margin-top: 45px;
+  margin-top: 35px;
   font-family: "Calibri", Calibri, monospace, bold;
 }
 
 .resumeEntry {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .resumeEntry a {
@@ -401,6 +392,10 @@ section:last-child {
 
 .keySkill:hover * {
     color: #FFBD4A;
+}
+
+.name p {
+  font-size: 65px;
 }
 
 .python {width: 90%; background-color: #FFBD4A; opacity: 0.2;}
