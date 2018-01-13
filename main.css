@@ -50,10 +50,12 @@ body {
         display: none;
     }
 
-    .mobile-hidden p {
-      display: none;
-    }
+}
 
+@media all and (max-width: 940px){
+  .mobile-hidden p {
+    display: none;
+  }
 }
 
 @media all and (max-width: 767px){
