@@ -120,13 +120,13 @@ body {
 
 .navbar-default {
 	background: none;
-    border: none;
+  border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
 	padding-top: 19px;
-    color: white;
-    border-bottom: 4px solid transparent;
+  color: white;
+  border-bottom: 4px solid transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -377,7 +377,17 @@ body {
   margin-top: 50px;
   color: #FFBD4A;
   font-family: "Calibri", Calibri, monospace, bold;
-  font-size: 35px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.summary a {
+  color: #FFBD4A;
+  font-family: "Calibri", Calibri, monospace, bold;
+}
+
+.summary a:hover {
+  border: none;
 }
 
 .bg-wood-contain {
