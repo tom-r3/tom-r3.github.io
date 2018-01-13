@@ -50,6 +50,10 @@ body {
         display: none;
     }
 
+    .mobile-hidden p {
+      display: none;
+    }
+
 }
 
 @media all and (max-width: 767px){
@@ -76,6 +80,7 @@ body {
     .center-projects div{
      margin:0 -4% 0 4%;
   }
+
 }
 
 @media all and (max-height: 500px) and (orientation: landscape){
