@@ -49,7 +49,7 @@
             <h1 class="text-lg margin-b-0">Hi! I’m <strong>Tom Robertson</strong></h1>
             <h5 class="text-tertiary margin-b-40">experienced software developer / entrepreneur</h5>
             <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary"><span>Go to my resume!</span><i class="ti-arrow-down"></i></a></span>
-            <a href="#" class="btn btn-link"><span>Download my CV</span><i class="ti-file"></i></a>
+            <!-- <a href="#" class="btn btn-link"><span>Download my resume</span><i class="ti-file"></i></a> -->
         </div>
 
     </section>
@@ -258,9 +258,9 @@
             <nav class="text-center">
                 <ul class="nav nav-filter nav-pills margin-b-40" data-filter-grid="#portfolio-list">
                     <li class="active"><a href="#" data-filter="*">All</a></li>
-                    <li><a href="#" data-filter=".webdesign">Webdesign</a></li>
                     <li><a href="#" data-filter=".development">Development</a></li>
-                    <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
+                    <li><a href="#" data-filter=".webdesign">Webdesign</a></li>
+                    <li><a href="#" data-filter=".business">Business</a></li>
                 </ul>
             </nav>
 
@@ -305,7 +305,7 @@
                     </div>
                 </div>
                 <!-- Masonry Element -->
-                <div class="graphic masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+                <div class="business masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
                             <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-vertical01.jpg" alt="" /></a>
@@ -359,7 +359,7 @@
                     </div>
                 </div>
                 <!-- Masonry Element -->
-                <div class="graphic masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+                <div class="business masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
                             <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square03.jpg" alt="" /></a>
@@ -399,13 +399,12 @@
                 <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>519-242-4711</li>
             </ul>
             <a href="#" class="btn btn-primary" data-target="messenger"><span>Use Contact Form</span><i class="ti-email"></i></a>
-            <h5 class="margin-t-60">Check my social media!</h5>
+            <h5 class="margin-t-60">Connect with me!</h5>
             <ul class="list-inline">
-                <li><a href="#" class="icon icon-circle icon-xs icon-facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" class="icon icon-circle icon-xs icon-twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" class="icon icon-circle icon-xs icon-google-plus"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/tom-r3/" class="icon icon-circle icon-xs icon-linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/tom_r3/" class="icon icon-circle icon-xs icon-instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://github.com/tom-r3" class="icon icon-circle icon-xs icon-github"><i class="fa fa-github"></i></a></li>
             </ul>
-            <h5>Like me on Facebook</h5>
             <!-- FB Like -->
             <div class="fb-like" data-href="http://www.facebook.com/suelopl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
         </div>
@@ -416,7 +415,7 @@
 </div>
 <!-- Content / End -->
 
-<!-- Messanger -->
+<!-- Messenger -->
 <a href="#" id="messenger-toggle" data-target="messenger" class="icon icon-sm icon-circle animated" data-animation="bounceIn" data-animation-delay="300"><i class="fa fa-comments"></i></a>
 <div id="messenger" class="dark">
     <div id="messenger-box">
@@ -465,11 +464,11 @@
         </ul>
         <!-- Social Media -->
         <div class="margin-t-20">
-            <strong class="text-sm hidden-md">Check my social media!</strong>
+            <strong class="text-sm hidden-md">Connect with me!</strong>
             <ul class="list-inline margin-t-10">
-                <li><a href="#" class="icon icon-xs"><i class="fa fa-facebook text-muted"></i></a></li>
-                <li><a href="#" class="icon icon-xs"><i class="fa fa-twitter text-muted"></i></a></li>
-                <li><a href="#" class="icon icon-xs"><i class="fa fa-google-plus text-muted"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/tom-r3/" class="icon icon-xs"><i class="fa fa-linkedin text-muted"></i></a></li>
+                <li><a href="https://www.instagram.com/tom_r3/" class="icon icon-xs"><i class="fa fa-instagram text-muted"></i></a></li>
+                <li><a href="https://github.com/tom-r3" class="icon icon-xs"><i class="fa fa-github text-muted"></i></a></li>
             </ul>
         </div>
     </div>
@@ -479,16 +478,6 @@
 <!-- Ajax Wrapper & Loader -->
 <div id="ajax-modal"></div>
 <div id="ajax-loader"><i class="fa fa-spinner fa-spin"></i></div>
-
-<!-- FB Like -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- JS Libraries -->
 <script src="assets/js/jquery-1.11.3.min.js"></script>
@@ -508,11 +497,11 @@ window.paceOptions = {
 <!-- Google Map API -->
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
-<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
-<!--
+<!-- Google Analytics -->
+
 <script>
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_setAccount', 'UA-104555347-1']);
     _gaq.push(['_trackPageview']);
 
     (function() {
@@ -521,7 +510,7 @@ window.paceOptions = {
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
--->
+
 
 </body>
 
