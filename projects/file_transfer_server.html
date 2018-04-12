@@ -1,0 +1,54 @@
+<div class="section ajax-body bg-white">
+
+	<div class="container container-wide">
+		<div class="row margin-b-50">
+			<div class="col-lg-8 col-lg-offset-1">
+        <h1>A <strong>TCP server</strong> written in Python for Unix.</h1>
+
+        <p class="lead">Clients connect and specify whether they would like to upload or download a file, as well as an alphanumeric identifier. The server opens a connection and blocks until a matching uploader/downloader is found, then initiates the file transfer. The server does not store any files.</p>
+
+        <p class="lead">The server is multithreaded. The main thread loops forever, blocking on accept until a connection is present. On a new connection, it starts a new thread for that specific connection. The threads all share access to three synchronized lists which track sockets (both waiting and transferring) as well as keys and are protected by a lock. First, the lists are checked for an opposite match (P/G), and if there is one the socket is placed in the transferring list and the transfer begins. A DONE event is also cleared at the beginning of a thread being added. If the key is not in the lists, it is added to them. At the end, the thread checks if all the lists are empty and if so it sets the DONE event so that the server can end if a client calls F.</p>
+			</div>
+		</div>
+
+		<!-- <div class="margin-b-80">
+			<img src="assets/img/projects/recreation/r1.png" class="margin-b-10" alt="">
+			<div class="margin-b-20 text-center text-sm text-muted">Company Wide Metrics</div>
+			<img src="assets/img/projects/recreation/r2.png" class="margin-b-10" alt="">
+			<div class="margin-b-20 text-center text-sm text-muted">Customer Profile Portal</div>
+      <img src="assets/img/projects/recreation/r4.png" class="margin-b-10" alt="">
+			<div class="margin-b-20 text-center text-sm text-muted">Customizable Profiles</div>
+      <img src="assets/img/projects/recreation/r5.png" class="margin-b-10" alt="">
+			<div class="margin-b-20 text-center text-sm text-muted">REST API</div>
+		</div> -->
+
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-1">
+				<h1>The server is written in <strong>Python</strong> using the <strong>Socket</strong> interface.</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-1">
+				<!-- <div class="row margin-b-30">
+		            <div class="col-md-3">
+		                <div class="icon icon-circle icon-grey"><i class="fa fa-html5"></i></div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="icon icon-circle icon-grey"><i class="fa fa-css3"></i></div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="icon icon-circle icon-grey"><i class="fa fa-apple"></i></div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="icon icon-circle icon-grey"><i class="fa fa-android"></i></div>
+		            </div>
+		        </div> -->
+				<p class="lead">Check out the <a href="https://github.com/tom-r3/File-Transfer-Server" class="link-default">source code</a>!</p>
+				<!-- <a href="#" class="btn btn-primary btn-filled"><span>Buy it for $9</span><i class="ti-shopping-cart"></i></a> -->
+        </div>
+    </div>
+	</div>
+
+	<!-- Close -->
+	<a href="#" class="ajax-close icon icon-hover icon-primary icon-circle icon-sm" data-dismiss="close"><i class="fa fa-close"></i></a>
+</div>
